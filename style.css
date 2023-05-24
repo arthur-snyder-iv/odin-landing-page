@@ -1,81 +1,69 @@
-body {
+html {
     background-color: black;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    
+    height: 100vh;
+    max-width: 75vh;
+    margin-top: 0%;
+    margin-left: 21vh;
 }
 
 .header {
-    width: 640px;
-    height: 35px;
     background-color: #1f2937;
     color: white;
-    align-self: center;
+    flex: 1, 1;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left:75px;
-    padding-right: 75px;
-    box-sizing: border-box;
-        
-}
-
-.logo {
-    align-self: center;
-    font-weight: 800;
-    font-size: small;
-
-}
-
-.header-links {
-    align-self: center;
+    padding-left: 15%;
+    padding-right: 15%;
     
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: x-small;
+.logo {
+    font-size: small;
+    font-weight: bold;
+}
+
+.header li {
+    display: inline;
     margin: 5px;
+    font-size: x-small;
 }
 
 .main {
-    width: 640px;
-    height: 161px;
     background-color: #1f2937;
     color: white;
-    align-self: center;
+    flex: 1, 1;
+    flex-basis: 24%;
 }
 
 .secondary {
-    width: 640px;
-    height: 161px;
     background-color: white;
     color: black;
-    align-self: center;
+    flex: 1, 1;
+    flex-basis: 27%;
 }
 
 .quote {
-    width: 640px;
-    height: 150px;
     background-color: #e5e7eb;
     color: black;
-    align-self: center;
+    flex: 1, 1;
+    flex-basis: 22%;
 }
 
 .call-to-action {
-    width: 640px;
-    height: 150px;
     background-color: white;
     color: black;
-    align-self: center;
+    flex: 1, 1;
+    flex-basis: 17%;
 }
 
 .footer {
-    width: 640px;
-    height: 35px;
     background-color: #1f2937;
     color: white;
-    align-self: center;
+    flex: 1, 1;
+    
 }
