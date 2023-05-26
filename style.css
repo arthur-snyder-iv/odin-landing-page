@@ -1,14 +1,18 @@
 html {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
 }
 
 body {
+    height: 100vh;
+    width: 75vh;    
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    max-width: 75vh;
     margin-top: 0%;
-    margin-left: 21vh;
+    
 }
 
 .header {
@@ -18,8 +22,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding-left: 15%;
-    padding-right: 15%;
-    
+    padding-right: 15%;    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
 
 .logo {
@@ -38,6 +50,24 @@ body {
     color: white;
     flex: 1, 1;
     flex-basis: 24%;
+    padding-left: 15%;    
+}
+
+.main h2 {
+    margin-bottom: 0%;
+}
+
+.main p {
+    font-size: small;
+    margin: 0%;
+}
+
+.main button {
+    background-color: #3882f6;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: .5em;
 }
 
 .secondary {
@@ -65,5 +95,6 @@ body {
     background-color: #1f2937;
     color: white;
     flex: 1, 1;
-    
+    font-size: x-small;
+    text-align: center;  
 }
