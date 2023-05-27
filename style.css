@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0%;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -31,18 +31,20 @@ a {
 }
 
 a:hover {
-    color: blue;
+    text-decoration: underline;
+    
 }
 
 .logo {
     font-size: small;
     font-weight: bold;
+    align-self: center;
 }
 
 .header li {
     display: inline;
     margin: 5px;
-    font-size: x-small;
+    font-size: x-small;    
 }
 
 .main {
@@ -50,16 +52,18 @@ a:hover {
     color: white;
     flex: 1, 1;
     flex-basis: 24%;
-    padding-left: 15%;    
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
 }
 
-.main h2 {
-    margin-bottom: 0%;
+.main h3 {
+    margin-bottom: 2%;
 }
 
 .main p {
     font-size: small;
-    margin: 0%;
+    margin-bottom: 5%;
 }
 
 .main button {
@@ -68,6 +72,10 @@ a:hover {
     padding-left: 2%;
     padding-right: 2%;
     border-radius: .5em;
+}
+
+img {
+    margin-top: 10%;
 }
 
 .secondary {
