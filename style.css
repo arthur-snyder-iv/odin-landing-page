@@ -59,6 +59,7 @@ a:hover {
 
 .main h3 {
     margin-bottom: 2%;
+    margin-top: 0%;
 }
 
 .main p {
@@ -74,8 +75,9 @@ a:hover {
     border-radius: .5em;
 }
 
-img {
-    margin-top: 10%;
+.main img {
+    margin-top: 0%;
+    margin-bottom: 5%;
 }
 
 .secondary {
@@ -83,6 +85,21 @@ img {
     color: black;
     flex: 1, 1;
     flex-basis: 27%;
+}
+
+.secondary h3 {
+    text-align: center;
+    justify-content: center;
+}
+
+photos {
+    
+}
+
+photo {
+    width: 5%;
+    height: 5%;
+
 }
 
 .quote {
